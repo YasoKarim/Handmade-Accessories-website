@@ -1,2 +1,2 @@
 ## Handmade Accessories website
-Being built
+On construction 
