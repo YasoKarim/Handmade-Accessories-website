@@ -565,4 +565,5 @@
             border-radius: 5px;
             text-align: center;
             margin-left: 350px;
-            }
+            float: inherit;
+        }
