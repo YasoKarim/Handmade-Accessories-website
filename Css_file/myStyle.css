@@ -1,0 +1,254 @@
+body {
+	background: #f9f9fb;
+	font-family: Verdana;
+	font-size: 14px;
+	
+}
+	
+#product {
+	background: #e6d9df;
+	text-align: center;
+	font-size: 300%;
+	font-weight: bold;
+	padding: 30px;
+	border-radius: 10px;
+	
+}
+#header {
+	background: #f095a5;
+	text-align: left;
+	font-weight: bold;
+	padding: 10px;
+	color: white;
+	/*position:fixed;*/
+	width:100%;
+	border-radius: 10px;
+	list-style-type:none;
+	font-size: 100%;
+	margin-top: 2px;
+}
+#header ul li{
+	display: inline;
+	
+}
+#header ul li a{
+	color: white;
+	text-decoration:none;
+	padding-left: 30px;
+	padding-right: 30px;
+	
+}
+#header ul li a:hover{
+	background: #f23b5b;
+	border-radius: 10px;
+	font-size: 120%;
+}
+#header ul li img {
+	/* padding: 0; */
+	text-align: left-side;
+	border-radius: 10px;
+	width: 8%;
+}
+.checked {
+  color: orange;
+}
+.lable{
+	border-radius: 10px;
+	/*margin: auto;
+	width:1%;
+	height:10%;*/
+}
+.footer{
+  margin-top: auto;
+  /*margin-top: 40px;*/
+  background-color: #ffc0cb;
+  width: 100%;
+  padding: 0px ;
+  bottom:0;
+  left:0;
+  right: 0;
+  margin-bottom: 0;
+  text-align: center;
+  border-radius: 20px;
+  clear: both;
+}
+.Facebook{
+	margin: auto;
+	width:40px;
+	height:40px;
+}
+.Instagram{
+	margin: auto;
+	width:40px;
+	height:40px;
+}
+.Tiktok{
+	margin: auto;
+	width:50px;
+	height:50px;
+
+}
+
+p{
+	font-family: verdana;
+	font-size: 20px;
+}
+#logo {
+	background: #f095a5;
+	
+	
+}
+#h5{
+	font-size: 20px; 
+	
+}
+#contact {
+	/*background: #000000;
+	color: white;*/
+	text-align: left;
+	float: right;
+	font-weight: bold;
+	padding: 10px;
+	width:80%;
+	border-radius: 10px;
+	list-style-type:none;
+	font-size: 100%;
+	margin-top: 10px;
+}
+#menu {
+	/*background: #ffb4e5;*/
+	text-align: center;
+	/*float: right;*/
+	font-weight: bold;
+	padding: 3px;
+	color: white;
+	/*position:fixed;*/
+	width:100%; 
+	border-radius: 10px;
+	list-style-type:none;
+	font-size: 100%;
+	margin-top: 2px;
+
+}
+#menu ul{
+	background: #eba5b1;
+	text-align: center;
+	font-weight: bold;
+	padding: 3px;
+	width:100%;
+	border-radius: 10px;
+	list-style-type:none;
+	font-size: 100%;
+	margin-top: 2px;
+}
+#menu ul li{
+	display: inline;
+}
+#menu ul li a{
+	color: white;
+	text-decoration: none;
+	padding-left: 30px;
+	padding-right: 30px;
+}
+#menu ul li a:hover{
+	background: #eba5b1;
+	border-radius: 10px;
+	font-size: 150%;
+}
+#leftColumn {
+	background: #e6d9df;
+	text-align: center;
+	float: left;
+	font-weight: bold;
+	padding: 10px;
+	color: black;
+	/*position:fixed;*/
+	width:30%;
+	border-radius: none;
+	list-style-type:none;
+	font-size: 100%;
+	margin-top: 10px;
+}
+.card {
+	padding: 20px;
+	margin-top: 10px;
+	border-radius: 10px;
+}
+.card img {
+	border-radius: 2px;
+	width: 50%;
+	padding-left: 30px;
+	padding-right: 30px;
+}
+#CenterColumn {
+	background: #e6d9df;
+	text-align: center;
+	float: left;
+	font-weight: bold;
+	padding: 10px;
+	color: black;
+	/*position:fixed;*/
+	width:30%;
+	border-radius: none;
+	list-style-type:none;
+	font-size: 100%;
+	margin-top: 10px;
+}
+.card {
+	padding: 20px;
+	margin-top: 10px;
+	border-radius: 10px;
+}
+.card img {
+	border-radius: 2px;
+	width: 50%;
+	padding-left: 30px;
+	padding-right: 30px;
+}
+#rightColumn {
+	background: #e6d9df;
+	text-align: center;
+	float: left;
+	font-weight: bold;
+	padding: 10px;
+	color: black;
+	/*position:fixed;*/
+	width:30%;
+	border-radius: none;
+	list-style-type:none;
+	font-size: 100%;
+	margin-top: 10px;
+}
+.card {
+	padding: 20px;
+	margin-top: 10px;
+	border-radius: 10px;
+}
+.card img {
+	border-radius: 2px;
+	width: 50%;
+	padding-left: 30px;
+	padding-right: 30px;
+}
+#button {
+	/*width: 100%;*/
+}
+/*.nav{
+            list-style-type: none;
+            margin: 0;
+            padding:0;
+            float: left;
+            overflow: hidden;
+            background-color: none;
+            width: 200px;
+			position: fixed;
+            top:0;
+            left:0;
+			border-radius: 100px;
+          }
+
+
+ /*background-color:#f581b7;
+#ffc0cb */
+	
+
