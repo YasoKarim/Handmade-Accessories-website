@@ -135,46 +135,6 @@ setTimeout("next()", time);
 }
 window.onload =next;
 
-
-
-  /*	// contain images in an array
-    var image = ['1.jpg','2.jpg', '3.jpg'];
-
-    var i = 0;
-
-
-    // function for next slide 
-
-    function nextImage(){
-      document.getElementById("slideshow").src = image[i];
-    	if ( i < image.length - 1) {
-    		i= i+1;
-    	}else{
-    		i = 0;
-    	}
-     slider_content.innerHTML = "<img src="+image[i-1]+".jpg>";
-    setTimeout("nextImage()",2000);
-    }
-window.onload = nextImage;
-
-    // function for prew slide
-
-   /* function prewImage(){
-
-    	if (i<image.length+1 && i>1) {
-    		i= i-1;
-    	}else{
-    		i = image.length;
-    	}
-    	  slider_content.innerHTML = "<img src="+image[i-1]+".jpg>";
-
-      
-
-    }
-    setInterval(nextImage , 4000);
-  */
-  // script for auto image slider
-
 function validate()
 {
   var valid = false;
@@ -249,7 +209,45 @@ if(email == "")
   valid = false;
   }
   return valid;
+
 }
+/*	// contain images in an array
+    var image = ['1.jpg','2.jpg', '3.jpg'];
+
+    var i = 0;
+
+
+    // function for next slide 
+
+    function nextImage(){
+      document.getElementById("slideshow").src = image[i];
+    	if ( i < image.length - 1) {
+    		i= i+1;
+    	}else{
+    		i = 0;
+    	}
+     slider_content.innerHTML = "<img src="+image[i-1]+".jpg>";
+    setTimeout("nextImage()",2000);
+    }
+window.onload = nextImage;
+
+    // function for prew slide
+
+   /* function prewImage(){
+
+    	if (i<image.length+1 && i>1) {
+    		i= i-1;
+    	}else{
+    		i = image.length;
+    	}
+    	  slider_content.innerHTML = "<img src="+image[i-1]+".jpg>";
+
+      
+
+    }
+    setInterval(nextImage , 4000);
+  */
+  // script for auto image slider
 //var at = email.indexOf("@");
 //var dot = email.indexOf(".");
 //var validRegex = /^([A-Za-z0-9_\-\.])+\@([A-Za-z0-9_\-\.])+\.([A-Za-z] (2,4))$/;
