@@ -1,7 +1,7 @@
 # Handmade Accessories website
 ## Contributors
-###[Mariam Emad](https://github.com/MariamEmadEldeen) <br>
-###Project idea
+### [Mariam Emad](https://github.com/MariamEmadEldeen) <br>
+### Project idea
 Website Accessories consisting for selling purposes  <br>
 It was a Project for Web programming Course  <br>
 Used languages:<br>
