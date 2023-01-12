@@ -1,0 +1,27 @@
+/*****************************************************   Draft ************************************************/
+/*
+//if(isset($firstname) || isset($lastname) || isset($useremail) || isset($userpass1) || isset($userpass2)){
+
+//$userpass2 = $_POST["userpass2"];
+//$conn = new mysqli("localhost", "root","root", "accessories");
+// Check connection
+if ($conn->connect_error) {
+  die("Connection failed: " . $conn->connect_error);
+}
+
+$sql = "INSERT INTO users (fname, lname, email,pass,cpassword)
+VALUES ('$firstname', '$lastname', '$useremail','$userpass1','$userpass2')";
+
+if ($conn->query($sql) === TRUE) {
+  echo "New record created successfully";
+  echo "<a href='login.php'>Click here to view The users</a>";
+} else {
+  echo "Error: " . $sql . "<br>" . $conn->error;
+}
+*/
+//}
+?>
+<!-- <label>Confirm Password *</label>
+    <p>
+    <input class="pass2" type="password" name="userpass2" placeholder="Enter password" >
+    </p>-->

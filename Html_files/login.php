@@ -2,9 +2,9 @@
 <html>
 <head>
     <meta charset="utf">
-    <title>Sign Up</title>
+    <title>Login</title>
     <link rel="stylesheet" href="../Css_file/Stylesheet.css">
-    <script src="../Javascript_files//Javascript.js"></script>
+    <script src="../javascript_files/login.js"></script>
 </head>
 <div class="navabar">
     <ul class="nav">
@@ -16,25 +16,17 @@
         <li><form class="seacrhform">
             <input title="search" class="searchinp" type="text" placeholder="Search:Necklaces,scarfs,icecaps,bracelets.." name="search">
         </form></li>
-        <li><a href="SignUp.html"><img class="profile" src="../img/pp2.png"></a></li>
+        <li><a href="SignUp.php"><img class="profile" src="../img/pp2.png"></a></li>
         <li><a href="Shopcart.html" ><img src="../img/Shopcart.png" title="Cart" class="cart"></a></li> 
     </ul>
 </div>
 
 <body class="signup">
     <div name="Container">
-    <form onsubmit= "return validation()" class="form" method ="post" action="thankYouSignUp.html"  name ="signupform">
-    <h1>Create an Account</h1>
+    <form onsubmit= "return validation()" class="form" method ="post" action="login_handler.php"  name ="loginform">
+    <h1>Login </h1>
     <hr>
     
-    <label>First Name *</label> 
-    <p>
-    <input id = "fisrtname" type="text" name="firstname" placeholder="Enter your first name" >
-    </p>
-    <label>Last name *</label> 
-    <p>
-    <input class="lastname" type="text" name="lastname" placeholder="Enter your Last name" >
-    </p>
     <label>Email *</label> 
     <p>
     <input class="email" type="text" name="useremail" placeholder="Enter your email" >
@@ -44,20 +36,9 @@
     <p>
     <input class="pass1" type="password" name="userpass1" placeholder="Enter password" >
     </p>
-    
-    <label>Confirm Password *</label>
-    <p>
-    <input class="pass2" type="password" name="userpass2" placeholder="Enter password" >
-    </p>
-    
 
     <p>
-    <input class="checkbox"type="checkbox" name="remember" >
-    <label>*By creating an account you agree to ourTerms and Coniditons</label>
-    </p>
-    <p>
-    <input class="submit" type="submit" value="Submit">
-    
+    <input class="submit" type="submit" value="Login">
     </p>    
     </div>
     </form>

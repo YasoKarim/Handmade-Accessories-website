@@ -26,23 +26,31 @@
 		</ul>	
 			
 	</div>
-		<form>
+		<form method="post" action="insert product.php">
 			<h1 class="viewprod">View Product</h1>
 			<hr>
 			<div id="product">
 			<h2>Product A</h2>
 			<img src="../img/th52.jpg">
-			<p><label>Product Name</label></p> 
+			<p><label>Product Name</label></p>
+			<input type="text" name="product_name">
 			<br>
-			<p><label>Product Price</label></p> 
+			<p><label>Product Price</label></p>
+			<input type="text" name="product_price">
 			<br>
-			<p><label>Product Maker</label></p> 
+			<p><label>Product Maker</label></p>
+			<input type="text" name="product_maker">
 			<br>
-			<p><label>Product rating:</label>
+			<p><label>Product rating:</label></p>
+			<input type="text" name="product_rating">
 			<br><br>
-			Low <input type="range" name="userRating" min="1" max="5">High</p>
-			<br>
-			
+			<p><label>product_range:</label></p>
+			<input type="text" name="product_range">
+			<br><br>
+			<!--Low <input type="range" name="range" min="1" max="10">High</p>
+			<input type="text" name="range">
+			<br>-->
+			<input type="submit" value="Add product">
 			<div class="buttons">	
 			<p>
 			<a href="PaymentMethod.html"><input class="button-input" type="button" value="buy" ></a>

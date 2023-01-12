@@ -90,25 +90,7 @@ if(email == "")
   formlabels[3].innerHTML = "Password: * [Not Valid]";
    formlabels[3].style.color = "red";
   }
-  if(passcof == "")
-  {
-  formlabels[4].innerHTML = "Confirm Password: * [Required]";
-  formlabels[4].style.color = "red";
-  valid = false;
-  }
-  else if(passcof.match(/^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?=.*[a-zA-Z]).{8,}$/))
-  {
-    formlabels[4].innerHTML = "Confirm Password: *";
-    formlabels[4].style.color = "Black";
-     valid = (valid) ? true: false;
-  }
-
-  else  
-  {
-    formlabels[4].innerHTML = "Confirm Password: * [Not valid]";
-    formlabels[4].style.color = "red";
-    valid = false;
-  }
+  
   
   return valid;
 }
@@ -137,7 +119,26 @@ window.onload =next;
 
 
 
-  /*	// contain images in an array
+  /*if(passcof == "")
+  {
+  formlabels[4].innerHTML = "Confirm Password: * [Required]";
+  formlabels[4].style.color = "red";
+  valid = false;
+  }
+  else if(passcof.match(/^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?=.*[a-zA-Z]).{8,}$/))
+  {
+    formlabels[4].innerHTML = "Confirm Password: *";
+    formlabels[4].style.color = "Black";
+     valid = (valid) ? true: false;
+  }
+
+  else  
+  {
+    formlabels[4].innerHTML = "Confirm Password: * [Not valid]";
+    formlabels[4].style.color = "red";
+    valid = false;
+  }
+  	// contain images in an array
     var image = ['1.jpg','2.jpg', '3.jpg'];
 
     var i = 0;

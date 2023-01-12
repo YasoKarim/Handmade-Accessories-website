@@ -59,7 +59,10 @@
         padding-left: 500px;
         border: #86868b solid;
         }
-        
+        .viewUserBody div p label{
+         font-weight: bold;
+
+        }
        .returnhome{
            padding-left: 30px;
            margin-left: 70px;
